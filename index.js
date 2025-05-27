@@ -32,7 +32,7 @@ catch (e)
     myBackResponse.innerHTML = "Houston, we have a problem!!! Something went wrong please try again!!!"
     
     submitBtn.removeAttribute("disabled")
-    submitBtn. innerHTML =`<i class="fa-regular fa-magnifying-glass"></i>`
+    submitBtn. innerHTML =`<i class="fa-solid fa-magnifying-glass"></i>`
 } finally {}
 
 });
