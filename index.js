@@ -3,15 +3,18 @@ const  myNameInput = document.querySelector ('input');
 const submitBtn = document.querySelector ('button');
 const result = document.querySelector (".result");
 const myBackResponse = document.querySelector (".result");
+const getCountryNames = new Intl.DisplayNames(['en'], {type: 'region'});
 
 
-const myQuery = myNameInput.value;
+
 submitBtn.addEventListener ("click", async (e) =>
 {
+    e. preventDefault()
+    const myQuery = myNameInput.value;
     result.innerHTML = `Please wait, Houston will get back to you.....`
     submitBtn.setAttribute ("disabled", true)
 try {
-e. preventDefault()
+
 const response = await fetch(`https://api.nationalize.io/?name=${myQuery}`)
 const result = await response.json();
 

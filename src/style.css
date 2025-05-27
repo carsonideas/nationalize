@@ -20,11 +20,13 @@ html {
   --button-hover-color: #777777;
 }
 
-.mybody
+.mybodyhero
 
 {
-  background-color: var(--primary-color);
-  background-color: white;
+  background-color: rgb(43, 26, 26);
+
+  /* background-color: white; */
+
 
   height: 100vh;
   
@@ -37,14 +39,21 @@ html {
 
   height: 5rem; 
   width: 100%;
- 
+ padding-bottom: 2rem;
   background-color: #ff9800;
+}
+
+
+.herooo
+
+{
+  margin-top: 5rem;
 }
 
 .form_search
 {
   
-  height: 10rem;
+ 
   align-items: center;
   justify-content: center;
   display: flex;
@@ -60,13 +69,15 @@ html {
 
   font-size: 4rem;
   border: 2px dashed white;
-  padding-top: 8rem;
+  margin-top: 14rem;
   width: 60rem;
   border-radius: 2rem;
   align-items: center;
   justify-content: center;
   display: flex;
   margin: auto;
+  color: var(--secondary-color);
+  padding: 4rem;
   
 
 
@@ -118,8 +129,8 @@ html {
     /* background-color: ;  */
     color: black; 
      
-
-    margin-top: 11rem;
+    text-align: center;
+    margin-top: 8rem;
   
     padding: 1.5rem; 
 
@@ -127,8 +138,11 @@ html {
     font-weight: bold; 
     height: 7rem;
     width: auto;
+    align-content: center;
+    align-items: center;
+
     text-align: center; 
-    border: 2px solid goldenrod; 
+    /* border: 2px solid goldenrod;  */
     border-radius: 1rem;
     color: var(--secondary-color);
 }
@@ -139,3 +153,4 @@ font-size: 24px;
 color: var(--secondary-color);
 
 }
+
