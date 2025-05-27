@@ -4,6 +4,8 @@ const submitBtn = document.querySelector ('button');
 const result = document.querySelector (".result");
 const myBackResponse = document.querySelector (".result");
 
+
+const myQuery = myNameInput.value;
 submitBtn.addEventListener ("click", async (e) =>
 {
     result.innerHTML = `Please wait, Houston will get back to you.....`
