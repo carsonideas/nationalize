@@ -128,7 +128,14 @@ html {
     height: 7rem;
     width: auto;
     text-align: center; 
-    border: 2px solid var(--secondary-color);
+    border: 2px solid goldenrod; 
     border-radius: 1rem;
-    
+    color: var(--secondary-color);
+}
+
+h2 
+{
+font-size: 24px;
+color: var(--secondary-color);
+
 }
